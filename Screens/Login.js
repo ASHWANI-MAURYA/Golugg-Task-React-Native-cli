@@ -107,7 +107,7 @@ const Login = ({ navigation }) => {
             <Image style={{ width: 25, height: 25, }} source={require('../assets/icons/New1.png')} />
           </View>
           <View style={{ width: '88%' }}>
-            <Input InputValue={Password} Placeholder={'Password'} />
+            <Input PasswordType={true} InputValue={Password} Placeholder={'Password'} />
           </View>
         </View>
         <View>
