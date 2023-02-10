@@ -65,7 +65,7 @@ const Login = ({ navigation }) => {
           }
           if (userInfo = res.data.error) {
             console.log(userInfo.message)
-            Alert.alert('Golugg says', userInfo.message)
+            // Alert.alert('Golugg says', userInfo.message)
             setIsLoading(false)
             if (userInfo.message == 'otp required') {
               console.log('otp chahiya')
