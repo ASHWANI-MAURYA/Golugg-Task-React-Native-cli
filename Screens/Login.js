@@ -15,8 +15,7 @@ const Login = ({ navigation }) => {
     if (value !== null) {
       navigation.replace('Drawer')
     }
-  }
-  );
+  });
   // const [message, setmessage] = useState('')
   const [PhoneNumber, setPhonenumber] = useState('')
   const [PassWord, setPassword] = useState('')
